@@ -33,7 +33,7 @@ jobs:
 
       - uses: r-lib/actions/setup-pandoc@v2
 
-      - uses: hryk/setup-ncbi-blast@master
+      - uses: shaunson26/setup-ncbi-blast@fix_path_add_os
         with:
           blast-version: latest
 
